@@ -5,7 +5,8 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <DictPage />
+      <h1>hello</h1>
+      {/* <DictPage /> */}
     </>
   );
 }
