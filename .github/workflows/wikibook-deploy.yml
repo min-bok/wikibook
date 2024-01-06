@@ -34,7 +34,7 @@ jobs:
 
       #  빌드 및 대체 페이지 생성
       - name: Build
-        run: npm run build && cp ./build/index.html ./build/404.html
+        run: CI='false' npm run build && cp ./build/index.html ./build/404.html
 
       # 배포
       - name: Deploy to gh-pages branch
