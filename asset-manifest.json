@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wikibook/static/css/main.e6c13ad2.css",
-    "main.js": "/wikibook/static/js/main.0303edc0.js",
+    "main.js": "/wikibook/static/js/main.f278180d.js",
     "static/js/787.d5fa4d18.chunk.js": "/wikibook/static/js/787.d5fa4d18.chunk.js",
     "index.html": "/wikibook/index.html",
     "main.e6c13ad2.css.map": "/wikibook/static/css/main.e6c13ad2.css.map",
-    "main.0303edc0.js.map": "/wikibook/static/js/main.0303edc0.js.map",
+    "main.f278180d.js.map": "/wikibook/static/js/main.f278180d.js.map",
     "787.d5fa4d18.chunk.js.map": "/wikibook/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0303edc0.js"
+    "static/js/main.f278180d.js"
   ]
 }
