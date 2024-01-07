@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
 
 const GlobalStyle = createGlobalStyle`
+${reset}
 /* 폰트 ------------------------------------------------------- */
 @font-face {
   font-family: 'Pretendard';
@@ -30,16 +32,33 @@ const GlobalStyle = createGlobalStyle`
   font-size: medium;
 }
 /* ------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
-    background-color: pink;
     font-family: "Pretendard";
+    overflow-x: hidden;
+
+    
 }
 
+a {
+  text-decoration: none;
+}
 
+button {
+  cursor: pointer;
+}
+
+/* 미디어쿼리 ------------------------------------------------------- */
+  /* @media (max-width: 768px) {
+
+  } */
 `;
 
 export default GlobalStyle;
