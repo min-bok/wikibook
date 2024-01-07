@@ -1,13 +1,16 @@
 import GlobalStyle from "./style/GlobalStyle";
-import { DictPage } from "./page";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { MainPage } from "./page";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <h1>hello</h1>
-      <h1>world</h1>
-      {/* <DictPage /> */}
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
